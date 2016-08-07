@@ -1,0 +1,89 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  font-family: "Tahoma", Geneva, sans-serif;
+}
+
+h1 {
+  margin-bottom: 15px;
+  font-size: 1.75em;
+  text-align: center;
+}
+
+section {
+  border: 1px solid black;
+  background-color: grey;
+  margin: 0 0 25px 0;
+  padding: 0
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+  margin-left: 2.5%
+}
+
+section h2 {
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    margin: 0 0 0 60%;
+    font-size: 1.25em;
+    text-align: center;
+    padding: 2px 0;
+    width: 40%;
+}
+
+section p {
+    padding: 0 6px 4px 6px;
+}
+
+#chicken h2 {
+    background-color: pink;
+    color: #000000;
+}
+
+#beef h2 {
+    background-color: red;
+    color: #ffffff;
+}
+
+#sushi h2 {
+    background-color: yellow;
+    color: #000000;
+}
+
+
+/********** Desktop View **********/
+@media (min-width: 992px) {
+    section {
+        float: left;
+        margin-right: 2.5%;
+        width: 30%;
+    }
+}
+
+/********** Tablet View **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    section {
+        float: left;
+        margin-right: 2.5%;
+        width: 46.25%;
+    }
+    #sushi {
+        clear: left;
+        width: 95%;
+    }
+    #sushi h2 {
+        margin: 0 0 0 80%;
+        width: 20%;
+    }       
+}
+
+/********** Mobile View **********/
+@media (max-width: 767px) {
+    section {
+        float: left;
+        margin-right: 2.5%;
+        width: 95%;
+    }
+}
