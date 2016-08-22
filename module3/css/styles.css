@@ -1,0 +1,53 @@
+* {
+	box-sizing: border-box;
+	font-family: "Tahoma", Geneva, sans-serif;
+}
+
+h1 {
+	margin-bottom: 15px;
+	font-size: 1.75em;
+	text-align: center;
+}
+
+section {
+	background-color: grey;
+	margin: 0 auto 15px;
+}
+
+/* Simple Responsive Framework. */
+.row {
+	width: 100%;
+	margin-left: 2.5%
+}
+
+section h3 {
+	border: 1px solid #000000;
+	font-size: 1.5em;
+	text-align: center;
+	padding: 10px;
+	width: 100%;
+}
+
+section a {
+	color: #ffffff;
+	text-align: right;
+}
+
+.menu-category section p {
+	color: #000;
+}
+
+#chicken h3 {
+	background-color: pink;
+	color: #000000;
+}
+
+#beef h3 {
+	background-color: red;
+	color: #ffffff;
+}
+
+#sushi h3 {
+	background-color: yellow;
+	color: #000000;
+}
